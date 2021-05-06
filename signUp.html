@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="signUp.css">
+</head>
+
+<body onload="init()">
+    <div class="container">
+        <div class="sign-up-form">
+          <form action="" method="post">
+            <table>
+                <tr>
+                    <th colspan="2">SIGN UP</th>
+                </tr>
+                <tr>
+                    <td>Full name</td>
+                    <td class="input-box">
+                        <input type="text" name="Fname" size="30" placeholder="fullname" id="fname">
+                    </td>
+                </tr>
+                <tr>
+                    <td>Uername</td>
+                    <td class="input-box">
+                        <input type="text" name="user" size="30" placeholder="Username" id="uname">
+                    </td>
+                </tr>
+                <tr>
+                    <td>Password</td>
+                    <td class="input-box">
+                        <input type="password" name="pass" size="30" placeholder="Password" id="pw">
+                    </td>
+                </tr>
+                <tr>
+                    <td>RePassword</td>
+                    <td class="input-box">
+                        <input type="password" name="repass" size="30" placeholder="Password" id="rpw">
+                    </td>
+                </tr>
+                <tr >
+                    <td>Gender</td>
+                    <td id="gender">
+                        <label>
+                            <input type="radio" name="gender" id="male" value="Male"> Male
+                        </label>
+                        <label>
+                            <input type="radio" name="gender" id="Female" value="Female"> Female
+                        </label>
+                    </td>
+                </tr>
+                <tr class="input-box">
+                    <td>Birth Day</td>
+                    <td>
+                        <input type="date" id="bday" >
+                    </td>
+                </tr>
+                <tr class="input-box">
+                    <td>Address</td>
+                    <td>
+                        <textarea name="" id="add" cols="30" rows="5"></textarea>
+                    </td>
+                </tr>
+                <tr>
+                    <td colspan="2" align="center" class="btn-box">
+                        <a href="">Reset</a>
+                        <a href="logIn.html" onclick="setInfor()">Ok</a>
+                    </td>
+                </tr>
+
+            </table>
+        </form>  
+        </div>
+        
+    </div>
+
+    <script src="signUp.js"></script>
+</body>
+
+</html>

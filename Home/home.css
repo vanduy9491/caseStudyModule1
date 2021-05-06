@@ -1,0 +1,26 @@
+*,::before,::after{
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Courier New', Courier, monospace;
+}
+a{
+    text-decoration: none;
+    padding: 20px;
+    color: white;
+}
+button{
+    border: none;
+    background-color: rgb(5, 124, 179);
+    border-radius: 5px;
+    padding: 15px;  
+}
+button:hover{
+    background-color: rgb(9, 82, 179);
+}
+html{
+    margin: 5px auto;
+    max-width: 1200px;
+}
+.btn{
+    display: none;
+}
